@@ -12,8 +12,8 @@ import {
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   return (
-    <header className="fixed w-full top-0">
-      <nav className="max-w-screen-xl mx-auto flex items-center justify-between py-5 px-3 bg-gray-900">
+    <header className="fixed w-full top-0 bg-gray-900">
+      <nav className="max-w-screen-xl mx-auto flex items-center justify-between py-5 px-3 ">
         <div className="logo text-xl font-bold">TruthGate</div>
         <div className="nav_items flex items-center justify-center gap-x-4 font-bold text-xl">
           <button type="button" onClick={() => setMenuOpen(!isMenuOpen)}>

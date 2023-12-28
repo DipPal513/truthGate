@@ -1,6 +1,5 @@
 "use client";
 const formSubmit = (data:object):void => {
-    data.preventDefault();
     console.log(data)
 };
 export default function Login() {
