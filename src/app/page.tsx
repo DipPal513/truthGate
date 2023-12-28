@@ -1,11 +1,11 @@
-import React from 'react'
-import Login from './login/page'
-import Header from '@/components/Header'
+import Feed from "./feed/page";
 
 const Home = () => {
   return (
-    <><Header /></>
-  )
-}
+    <>
+      <Feed />
+    </>
+  );
+};
 
-export default Home
+export default Home;
